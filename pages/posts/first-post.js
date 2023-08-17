@@ -4,8 +4,8 @@ import Script from 'next/script';
 import Layout from '../../components/layout';
 
 export default function FirstPost() {
-    return (
-   
+  return (
+
     <Layout>
       <Head>
         <title>First Post</title>
@@ -17,11 +17,11 @@ export default function FirstPost() {
           console.log(`script loaded correctly, window.FB has been populated`)
         }
       />
-    <h1>Te amo Lara</h1>
-    <h2>
+      <h1>Te amo Lara</h1>
+      <h2>
         <Link href="/">Back to Home</Link>
-    </h2>
+      </h2>
     </Layout>
-   
-);  
+
+  );
 }
