@@ -18,9 +18,7 @@ export default function FirstPost() {
         }
       />
       <h1>Te amo Lara</h1>
-      <h2>
-        <Link href="/">Back to Home</Link>
-      </h2>
+      
     </Layout>
 
   );
